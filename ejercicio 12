@@ -1,0 +1,40 @@
+//ejercicio 12//
+#include <stdio.h>
+#include <string.h>
+
+int a=0;
+int b=0;
+char nivel;
+
+int main()
+
+{
+    printf("ingrese su nivel A\n");
+    scanf("%c", &nivel);
+    switch (nivel)
+        {
+            case'a':
+            printf("Felicitaciones, nivel alto\n");
+            break;
+            case'b':
+            printf("Muy buen nivel! siga adelante\n");
+            break;
+            case'c':
+            printf("bien hecho, puede seguir creciendo\n");
+            break;
+            case'd':
+            printf("Seguir avanzando\n");
+            break;
+            case'e':
+            printf("siga trabajando para mejorar\n");
+            case'f':
+            printf("siga trabajando! mejores su nivel que usted puede\n");
+            break;
+            case'g':
+            printf("vuelva a empezar, debe mejorar su nivel\n");
+            break;
+            default:
+            printf("error\n");
+        }
+    return 0;
+}
