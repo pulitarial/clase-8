@@ -1,0 +1,22 @@
+//ejercicio 8//
+#include <stdio.h>
+#include <string.h>
+
+int a=0;
+const int b=50;
+int result=0;
+
+int main()
+
+{
+    printf("ingrese un numero\n");
+    scanf("%d", &a);
+    if (a< b)
+        printf("el numero ingresado es menor de %d", b);
+    else if (a == b)
+        printf("el numero es igual a %d",  b);
+    else 
+        printf("el numero ingresado es mayor a %d",  b);
+        
+    return 0;
+}
