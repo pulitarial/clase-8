@@ -1,0 +1,25 @@
+//ejercicio 9//
+#include <stdio.h>
+#include <string.h>
+
+int a=0;
+int b=0;
+
+
+int main()
+
+{
+    printf("ingrese un numero A\n");
+    scanf("%d", &a);
+    printf("ingrese un numero B\n");
+    scanf("%d", &b);
+    
+    if (a< b)
+        printf("el numero A es menor de B");
+    else if (a == b)
+        printf("el numero A es igual al numero B");
+    else 
+        printf("el numero A es mayor a B");
+        
+    return 0;
+}
