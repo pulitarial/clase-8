@@ -1,0 +1,17 @@
+#include <stdio.h>
+int a=0;
+int b=0;
+int result=0;
+
+int main()
+
+{
+    printf("ingrese el valor A\n");
+    scanf("%d", &a);
+    printf("ingrese el valor B\n");
+    scanf("%d", &b);
+    result=3*a+b;
+    printf("el resultado de 3*a+b es %d", result);
+    
+    return 0;
+}
